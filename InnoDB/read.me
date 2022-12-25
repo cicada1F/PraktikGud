@@ -1,0 +1,22 @@
+База данных тип - InnoDB
+MySQL-кодировка: UTF-8 Unicode (utf8) 
+Сервер: localhost via TCP/IP
+Версия сервера: 5.1.30-community
+Версия протокола: 10
+Веб-сервер
+
+    Apache/2.2.11 (Win32) PHP/5.2.8
+    Версия MySQL-клиента: 5.0.51a
+    PHP расширение: mysqli
+
+Во вкладке привилегии необходимо создать пользовтеля со всеми привилегиями:
+( Хост - localhost
+  Тип - Глобальный уровень
+  Привилегии - ALL PRIVILEGES 	
+  GRANT - Да
+  Пользователь - admin_uchet) 
+
+$login_db = 'admin_uchet';
+$host_db = 'localhost';
+$pass_db = '12345';
+$name_db = 'UCHET';
